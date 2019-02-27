@@ -1,0 +1,12 @@
+
+// Variables
+@import 'variables';
+
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@import './custom';

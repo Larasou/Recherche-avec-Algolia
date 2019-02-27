@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.ais-refinement-list .ais-refinement-list__label {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+}
+
+.ais-refinement-list .ais-refinement-list__value {
+  width: 100%;
+}
+
+.ais-refinement-list .ais-refinement-list__count {
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  background-color: #3490dc;
+  color: #fff;
+  border-radius: 9999px;
+}
+
+.ais-refinement-list input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin-right: .5rem;
+  width: 100%;
+  border-radius: .125rem;
+  background-color: #dae1e7;
+  outline: 0;
+  width: 25px;
+  height: 19px;
+}
+
+.ais-refinement-list input[type=checkbox]:checked {
+  background-color: #2779bd;
+  color: #fff;
+  text-align: center;
+}
+
+.ais-refinement-list input[type=checkbox]:checked:before {
+  content: '\2714';
+}

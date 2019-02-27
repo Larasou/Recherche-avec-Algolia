@@ -1,0 +1,31 @@
+.ais-refinement-list {
+    .ais-refinement-list__label {
+        @apply mb-5 text-xl flex items-center font-semibold;
+    }
+
+    .ais-refinement-list__value {
+        @apply w-full;
+    }
+
+    .ais-refinement-list__count {
+        @apply px-3 py-1 bg-blue text-white rounded-full;
+    }
+
+    input[type=checkbox] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        @apply mr-2 w-full rounded-sm bg-grey-light outline-none;
+        width: 25px;
+        height: 19px;
+    }
+
+    input[type=checkbox]:checked {
+        @apply bg-blue-dark text-white text-center;
+
+        &:before {
+            content: '✔';
+        }
+    }
+}
